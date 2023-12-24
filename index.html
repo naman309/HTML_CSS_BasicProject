@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelzia</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="index.html" class="logo"><span>Travelzia</a>
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="book.html">book</a>
+        <a href="packages.html">packages</a>
+        <a href="services.html">services</a>
+        <a href="gallery.html">gallery</a>
+        <a href="review.html">review</a>
+        <a href="contact.html">contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>Join us on an adventure and see what awaits you.</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>  
+<div style="overflow-x:auto;">
+    
+    <table>
+        <caption>Featured</caption>
+        <tr id="theader">
+          <th>Destination</th>
+          <th>Price</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>Maldives</td>
+          <td>$4,200</td>
+          <td>7 days</td>
+        </tr>
+        <tr>
+          <td>Bali</td>
+          <td>$2,300</td>
+          <td>5 days</td>
+        </tr>
+        <tr>
+          <td>Cancun</td>
+          <td>$1,500</td>
+          <td>3 days</td>
+        </tr>
+        <tr>
+            <td>Saputara</td>
+            <td>$2,300</td>
+            <td>5 days</td>
+          </tr>
+          <tr id="tfooter">
+            <td>Mumbai</td>
+            <td>$1,500</td>
+            <td>3 days</td>
+          </tr>
+      </table>
+  </div>
+<section class="footer" id="homeFooter">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy Travelzia</p>
+    </footer>
+</section>
+
+</body>
+</html>
